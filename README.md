@@ -45,14 +45,14 @@ Syntax:
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>
 
-Parameter	Values	Description
-date	String	YYYYMMDD-hhmmss
-YYYY: year, e.g. 2015
-MM: month
-DD: date
-hh: hour
-mm: minute
-ss: second  
+Parameter	Values	Description <BR>
+date	String	YYYYMMDD-hhmmss <BR>
+YYYY: year, e.g. 2015 <BR>
+MM: month <BR>
+DD: date <BR>
+hh: hour <BR>
+mm: minute <BR>
+ss: second   <BR>
 
 # 3.0  RTSP Streaming via VLC
 Click on Media->Open Network Stream.  Enter the RTSP URL at Network Protocol box and click Play button.

@@ -29,14 +29,13 @@ Example of retrieving channel #2’s secondary (HD) stream:
 
 rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 
-Parameters:
-Parameter	Values	Description
-user	String	User name of the NVR
-password	String	Password of the NVR
-IP address	String	IP address of the NVR
-port	Number	Port number of the NVR
-ch	Number	Channel # 0~15 of the NVR 
-stream	Number	1: primary stream (SD), 2: secondary stream (HD)
+Parameters: <BR>
+user:	String	User name of the NVR <BR>
+password:	String	Password of the NVR <BR>
+IP address:	String	IP address of the NVR <BR>
+port:	Number	Port number of the NVR <BR>
+ch:	Number	Channel # 0~15 of the NVR <BR>
+stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
 
 # 2.0.1  NVR H.264 RTSP Playback Syntax
 
@@ -45,8 +44,7 @@ Syntax:
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>
 
-Parameter	Values	Description <BR>
-date	String	YYYYMMDD-hhmmss <BR>
+date:	String	YYYYMMDD-hhmmss <BR>
 YYYY: year, e.g. 2015 <BR>
 MM: month <BR>
 DD: date <BR>

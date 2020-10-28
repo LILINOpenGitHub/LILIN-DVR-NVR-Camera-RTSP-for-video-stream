@@ -44,6 +44,7 @@ Syntax:
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>
 
+Parameters:
 date:	String	YYYYMMDD-hhmmss <BR>
 YYYY: year, e.g. 2015 <BR>
 MM: month <BR>

@@ -72,6 +72,7 @@ Only RTSP Play and Pause are supported.
 # 3.0  RTSP Streaming via VLC
 Click on Media->Open Network Stream.  Enter the RTSP URL at Network Protocol box and click Play button.
 ![image](https://github.com/LILINOpenGitHub/LILIN-DVR-NVR-RTSP-for-video-stream/blob/main/images/vlc.png)
+<BR>
 # 4.0  RTSP Streaming via FFPlay
 TCP
 ffplay -rtsp_transport tcp "rtsp://admin:Pass1234@36.226.49.159:554/rtspstream?channel=0&stream=1"

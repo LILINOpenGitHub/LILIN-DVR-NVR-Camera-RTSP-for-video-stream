@@ -33,12 +33,12 @@ rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 **Parameters:** <BR>
 | Token | Comments |
 | ------|----------- |
-|user:	String	User name of the NVR <BR>
-password:	String	Password of the NVR <BR>
-IP address:	String	IP address of the NVR <BR>
-port:	Number	Port number of the NVR <BR>
-ch:	Number	Channel # 0~15 of the NVR <BR>
-stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
+|user:	| String	User name of the NVR  |
+| password:	 | String	Password of the NVR  |
+| IP address:	String	IP address of the NVR  |
+| port:	Number	Port number of the NVR |
+| ch:	Number	Channel # 0~15 of the NVR |
+| stream:	 | Number 1: primary stream (SD), 2: secondary stream (HD)  |
 
 # 2.1  NVR H.264 RTSP Playback Syntax
  

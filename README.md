@@ -41,12 +41,12 @@ stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
 
 # 2.0.1  NVR H.264 RTSP Playback Syntax
  
-**Syntax:**
+**Syntax:** <BR>
 
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>
 
-**Parameters:**
+**Parameters:** <BR>
 date:	String	YYYYMMDD-hhmmss <BR>
 YYYY: year, e.g. 2015 <BR>
 MM: month <BR>

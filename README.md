@@ -22,18 +22,16 @@ To test NVR H.264 streams via RTP/RTSP/HTTP, you can verify the streams by using
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>
 
 **Example:**
- 
 Retrieving channel #2’s primary (SD) stream:
 
 rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 
-**Example **
-  
+**Example:**
 Retrieving channel #2’s secondary (HD) stream:
 
 rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 
-Parameters: <BR>
+**Parameters:** <BR>
 user:	String	User name of the NVR <BR>
 password:	String	Password of the NVR <BR>
 IP address:	String	IP address of the NVR <BR>
@@ -48,7 +46,7 @@ stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>
 
-Parameters:
+**Parameters:**
 date:	String	YYYYMMDD-hhmmss <BR>
 YYYY: year, e.g. 2015 <BR>
 MM: month <BR>

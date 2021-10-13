@@ -31,7 +31,9 @@ Playback recording for channel #2’s secondary (HD) stream:
 rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 
 **Parameters:** <BR>
-user:	String	User name of the NVR <BR>
+| Token | Comments |
+| ------|----------- |
+|user:	String	User name of the NVR <BR>
 password:	String	Password of the NVR <BR>
 IP address:	String	IP address of the NVR <BR>
 port:	Number	Port number of the NVR <BR>

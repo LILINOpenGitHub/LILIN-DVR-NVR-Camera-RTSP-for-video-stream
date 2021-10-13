@@ -52,6 +52,10 @@ rtsp://(user):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(str
 **Parameters:** <BR>
 | Token | Type | Comments |
 | ------|------- | ---- |
+| username | String	 | User name of the NVR  |
+| password | String | 	Password of the NVR  |
+| IP address | String	 | IP address of the NVR  |
+| port  | Number	 |  Port number of the NVR |
 | ch | Number	 | Channel # 0~31 of the NVR/DVR |
 | date | 	String	 | YYYYMMDD-hhmmss |
 | YYYY | Number | year, e.g. 2015 |

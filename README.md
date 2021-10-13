@@ -38,7 +38,7 @@ port:	Number	Port number of the NVR <BR>
 ch:	Number	Channel # 0~15 of the NVR <BR>
 stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
 
-# 2.0.1  NVR H.264 RTSP Playback Syntax
+# 2.1  NVR H.264 RTSP Playback Syntax
  
 **Syntax:** <BR>
 

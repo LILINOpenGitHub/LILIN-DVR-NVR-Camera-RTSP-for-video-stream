@@ -44,18 +44,18 @@ rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
  
 **Syntax:** <BR>
 
-rtsp://(user):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(stream)&playback=<date>
+rtsp://(user):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(stream)&playback=(date)
 
 **Parameters:** <BR>
 | Token | Type | Comments |
 | ------|------- | ---- |
 | date | 	String	 | YYYYMMDD-hhmmss |
-| YYYY |  |year, e.g. 2015 |
-| MM |  month |
-| DD |  date |
-| hh |  hour |
-| mm | |minute |
-| ss | second   |
+| YYYY | Number | year, e.g. 2015 |
+| MM | Number |  month |
+| DD | Number |  day |
+| hh | Number |  hour |
+| mm | Number | |minute |
+| ss | Number | second   |
 | stream | Number  | 1: primary stream (SD), 2: secondary stream (HD)  |
  
 # 3.0  RTSP Streaming via VLC

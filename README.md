@@ -18,7 +18,7 @@ To test NVR H.264 streams via RTP/RTSP/HTTP, you can verify the streams by using
 # 2.0  NVR H.264 RTSP Live Syntax
 
 **Syntax:**
-rtsp://(username):<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<stream>
+rtsp://(username):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(stream)
 
 **Example:** <BR>
 Playback recording for channel #2’s primary (SD) stream:
@@ -44,17 +44,18 @@ rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
  
 **Syntax:** <BR>
 
-rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
-playback=<date>
+rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&playback=<date>
 
 **Parameters:** <BR>
-date:	String	YYYYMMDD-hhmmss <BR>
-YYYY: year, e.g. 2015 <BR>
-MM: month <BR>
-DD: date <BR>
-hh: hour <BR>
-mm: minute <BR>
-ss: second   <BR>
+| Token | Type | Comments |
+| ------|------- | ---- |
+| date:|	String	YYYYMMDD-hhmmss |
+| YYYY: |year, e.g. 2015 |
+| MM:| month |
+| DD:| date |
+| hh:| hour |
+| mm: |minute |
+| ss: |second   |
 
 # 3.0  RTSP Streaming via VLC
 Click on Media->Open Network Stream.  Enter the RTSP URL at Network Protocol box and click Play button.

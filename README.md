@@ -37,7 +37,7 @@ rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 | password | String | 	Password of the NVR  |
 | IP address | String	 | IP address of the NVR  |
 | port  | Number	 |  Port number of the NVR |
-| ch | Number	 | Channel # 0~15 of the NVR |
+| ch | Number	 | Channel # 0~31 of the NVR/DVR |
 | stream | Number  | 1: primary stream (SD), 2: secondary stream (HD)  |
 
 # 2.1  NVR H.264 RTSP Playback Syntax
@@ -46,9 +46,13 @@ rtsp://admin:1111@192.168.3.243:554/rtspstream?channel=1&stream=1
 
 rtsp://(user):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(stream)&playback=(date)
 
+ **Example:**
+ rtsp://admin:1111@192.168.0.111:554/rtspstream?channel=0&stream=0&playback=2021/08/12/22/35/00
+ 
 **Parameters:** <BR>
 | Token | Type | Comments |
 | ------|------- | ---- |
+| ch | Number	 | Channel # 0~31 of the NVR/DVR |
 | date | 	String	 | YYYYMMDD-hhmmss |
 | YYYY | Number | year, e.g. 2015 |
 | MM | Number |  month |

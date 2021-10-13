@@ -66,6 +66,9 @@ rtsp://(user):(password)@(IP address):(port)/rtspstream?channel=(ch)&stream=(str
 | ss | Number | second   |
 | stream | Number  | 1: primary stream (SD), 2: secondary stream (HD)  |
  
+# 2.2  Playback Commands
+Only RTSP Play and Pause are supported.
+ 
 # 3.0  RTSP Streaming via VLC
 Click on Media->Open Network Stream.  Enter the RTSP URL at Network Protocol box and click Play button.
 

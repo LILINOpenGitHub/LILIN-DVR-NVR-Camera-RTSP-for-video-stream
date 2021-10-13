@@ -9,7 +9,7 @@ NVR116, NVR109, NVR104, NVR404, NVR408m, NVR100, NVR200, NVR400, NVR1400, NVR240
 DHD5104, DHD5108, DHD5216
 
 # Firmware Requirement:
-NVR Firmware 1.1.58 and later can support RTSP stream for NVR
+NVR/DVR Firmware 1.1.58 and later (SVN#7189) can support RTSP stream for NVR/DVR
 
 # 1.0  NVR H.264 RTSP Video & Audio Streaming
 

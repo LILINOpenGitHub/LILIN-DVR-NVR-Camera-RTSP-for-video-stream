@@ -21,7 +21,7 @@ To test NVR H.264 streams via RTP/RTSP/HTTP, you can verify the streams by using
 
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>
 
-**Example **
+**Example:**
  
 Retrieving channel #2’s primary (SD) stream:
 
@@ -42,8 +42,8 @@ ch:	Number	Channel # 0~15 of the NVR <BR>
 stream:	Number 1: primary stream (SD), 2: secondary stream (HD)
 
 # 2.0.1  NVR H.264 RTSP Playback Syntax
-
-Syntax:
+ 
+**Syntax:**
 
 rtsp:/<user>:<password>@<IP address>:<port>/rtspstream?channel=<ch>&stream=<pri/sec>&
 playback=<date>

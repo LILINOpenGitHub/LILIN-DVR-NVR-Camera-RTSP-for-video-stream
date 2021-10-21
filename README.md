@@ -82,6 +82,7 @@ ffplay "rtsp://admin:Pass1234@36.226.49.159:554/rtspstream?channel=0&stream=1"
  
 # 5.0 C# sample code 
 Visit the C# saample code [here](https://github.com/LILINOpenGitHub/Python-CSharp--Code-of-RTSP-MJPG-Video-with-AI-Bounding-Box-Display-for-LILIN-Yolo-Camera-/tree/main/C%23)
-
+ 
+![image](https://github.com/LILINOpenGitHub/Python-Code-of-RTSP-MJPG-Video-with-AI-Bounding-Box-Display-for-LILIN-Yolo-Camera-/blob/main/image/plate_test_2.gif)
 
 
